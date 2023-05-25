@@ -1,4 +1,4 @@
-import solution from '../src/new-21-game'
+import solution from '@/new-21-game'
 
 describe('New 21 Game', () => {
     test.each([
