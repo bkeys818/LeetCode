@@ -34,16 +34,18 @@ program.parseAsync()
 async function action(number: number, name: string, lang: Lang) {
     let srcFilename: string, testFilename: string
     const camelName = camelize(name)
+    const snakeName = snakize(name)
     if (lang == 'java') {
         srcFilename = camelName[0].toUpperCase() + camelName.slice(1)
         testFilename = srcFilename + 'Test'
     } else {
-        srcFilename = snakize(name)
+        srcFilename = snakeName
         testFilename = srcFilename + '.test'
     }
 
     const srcFile = file('src/', srcFilename, lang),
         testFile = file('tests/', testFilename, lang),
+        nameMD = `[${name}](https://leetcode.com/problems/${snakeName})`,
         srcMD = `[${properLangNames[lang]}](src/${srcFilename}.${lang})`,
         testMD = `[${properLangNames[lang]}](tests/${testFilename}.${lang})`
 
@@ -52,7 +54,7 @@ async function action(number: number, name: string, lang: Lang) {
         copy('test', lang, testFile),
         appendFile(
             './README.md',
-            `| ${number} | ${date} | ${name} | ${srcMD} | ${testMD} |\n`
+            `| ${number} | ${nameMD} | ${date} | ${srcMD} | ${testMD} |\n`
         ),
     ])
 
