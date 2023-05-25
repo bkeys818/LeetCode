@@ -1,0 +1,6 @@
+# build output
+out/
+
+# intellij files
+.idea/
+LeetCode.iml

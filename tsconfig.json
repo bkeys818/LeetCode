@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "module": "esnext",
+        "target": "es6",
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "resolveJsonModule": true
+    },
+    "include": ["src", "tests"]
+}
