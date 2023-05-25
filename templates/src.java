@@ -1,4 +1,4 @@
-public class __filename__ {
+public class __srcFilename__ {
     public void __camelName__() {
     }
 }

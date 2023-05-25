@@ -32,7 +32,7 @@ program
 program.parseAsync()
 
 async function action(number: number, name: string, lang: Lang) {
-    let filename: string, srcFilename: string, testFilename: string
+    let srcFilename: string, testFilename: string
     const camelName = camelize(name)
     if (lang == 'java') {
         srcFilename = camelName[0].toUpperCase() + camelName.slice(1)
@@ -57,7 +57,7 @@ async function action(number: number, name: string, lang: Lang) {
     ])
 
     async function copy(type: 'src' | 'test', lang: Lang, destFile: string) {
-        const vars = { name, filename, camelName, srcFilename }
+        const vars = { name, camelName, srcFilename }
         const regexp = new RegExp(
             Object.keys(vars)
                 .map(k => `__${k}__`)
