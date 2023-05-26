@@ -11,7 +11,7 @@ export default {
             'ts-jest',
             {
                 tsconfig: './tests/tsconfig.json',
-            }
-        ]
-    }
+            },
+        ],
+    },
 } satisfies JestConfigWithTsJest

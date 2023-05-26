@@ -1,3 +1,1 @@
-export default function __camelName__() {
-
-}
+export default function __camelName__() {}
