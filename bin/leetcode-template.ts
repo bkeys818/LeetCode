@@ -2,6 +2,7 @@
 import { program, Argument } from 'commander'
 import { cp, readFile, writeFile, appendFile } from 'fs/promises'
 import { resolve } from 'path'
+import { execSync } from 'child_process'
 
 const properLangNames = {
     java: 'Java',
@@ -53,10 +54,12 @@ async function action(number: number, name: string, lang: Lang) {
         copy('src', lang, srcFile),
         copy('test', lang, testFile),
         appendFile(
-            './README.md',
-            `| ${number} | ${nameMD} | ${date} | ${srcMD} | ${testMD} |\n`
+            file('', 'README', 'md'),
+            `| ${num ?? ''} | ${nameMD} | ${date} | ${srcMD} | ${testMD} |\n`
         ),
     ])
+
+    execSync(`prettier -w README.md ${srcFile} ${testFile}`)
 
     async function copy(type: 'src' | 'test', lang: Lang, destFile: string) {
         const vars = { name, camelName, srcFilename }
