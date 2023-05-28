@@ -11,3 +11,4 @@
 | 837  | [New 21 Game](https://leetcode.com/problems/new-21-game/)                                         | 05/25/23 | [TypeScript](src/new-21-game.ts)                 | [TypeScript](tests/new-21-game.test.ts)                 |
 | 2625 | [Flatten Deeply Nested Array](https://leetcode.com/problems/flatten-deeply-nested-array)          | 05/26/23 | [TypeScript](src/flatten-deeply-nested-array.ts) | [TypeScript](tests/flatten-deeply-nested-array.test.ts) |
 | 1140 | [Stone Game II](https://leetcode.com/problems/stone-game-i-i)                                     | 05/26/23 | [Java](src/StoneGameII.java)                     | [Java](tests/StoneGameIITest.java)                      |
+| 1547 | [Minimum Cost to Cut a Stick](https://leetcode.com/problems/minimum-cost-to-cut-a-stick)          | 05/28/23 | [Java](src/MinimumCostToCutAStick.java)          | [Java](tests/MinimumCostToCutAStickTest.java)           |
