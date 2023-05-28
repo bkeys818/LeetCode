@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-import { program, Argument } from 'commander'
-import { cp, readFile, writeFile, appendFile } from 'fs/promises'
+import { program, Option } from 'commander'
+import { readFile, writeFile, appendFile } from 'fs/promises'
 import { resolve } from 'path'
 import { execSync } from 'child_process'
 
@@ -20,22 +20,24 @@ const date = new Date().toLocaleDateString(undefined, {
 program
     .nameFromFilename(require.main!.filename)
     .description('Creates the template files for a new LeetCode problem.')
-    .argument('<number>', 'The number of the problem')
-    .argument('<name>', 'The name of the problem')
-    .addArgument(
-        new Argument('lang', 'The programming language')
+    .argument(
+        '<name>',
+        'The name of the problem. Preceeding with problem number is optional'
+    )
+    .addOption(
+        new Option('-l --lang <language>', 'The programming language.')
             .choices(Object.keys(properLangNames))
-            .argOptional()
             .default('java')
     )
     .action(action)
 
 program.parseAsync()
 
-async function action(number: number, name: string, lang: Lang) {
+async function action(nameStr: string, { lang }: { lang: Lang }) {
+    const [_, num, name] = /(?:(\d+)\. )?(.+)/.exec(nameStr)
+    const camelName = camelize(name),
+        snakeName = snakize(name)
     let srcFilename: string, testFilename: string
-    const camelName = camelize(name)
-    const snakeName = snakize(name)
     if (lang == 'java') {
         srcFilename = camelName[0].toUpperCase() + camelName.slice(1)
         testFilename = srcFilename + 'Test'
