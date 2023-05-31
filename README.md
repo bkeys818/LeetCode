@@ -12,3 +12,4 @@
 | 2625 | [Flatten Deeply Nested Array](https://leetcode.com/problems/flatten-deeply-nested-array)          | 05/26/23 | [TypeScript](src/flatten-deeply-nested-array.ts) | [TypeScript](tests/flatten-deeply-nested-array.test.ts) |
 | 1140 | [Stone Game II](https://leetcode.com/problems/stone-game-i-i)                                     | 05/26/23 | [Java](src/StoneGameII.java)                     | [Java](tests/StoneGameIITest.java)                      |
 | 1547 | [Minimum Cost to Cut a Stick](https://leetcode.com/problems/minimum-cost-to-cut-a-stick)          | 05/28/23 | [Java](src/MinimumCostToCutAStick.java)          | [Java](tests/MinimumCostToCutAStickTest.java)           |
+| 2631 | [Group By](https://leetcode.com/problems/group-by)                                                | 05/31/23 | [TypeScript](src/group-by.ts)                    | [TypeScript](tests/group-by.test.ts)                    |
