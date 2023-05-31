@@ -44,5 +44,5 @@ export function flattenDeeplyNestedArray2(
             )
         else flattened.push(item)
     }
-    return flattened
+    return flattened.reverse()
 }
