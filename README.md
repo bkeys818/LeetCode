@@ -14,3 +14,4 @@
 | 1547 | [Minimum Cost to Cut a Stick](https://leetcode.com/problems/minimum-cost-to-cut-a-stick)             | 05/28/23 | [Java](src/MinimumCostToCutAStick.java)                | [Java](tests/MinimumCostToCutAStickTest.java)                 |
 | 2631 | [Group By](https://leetcode.com/problems/group-by)                                                   | 05/31/23 | [TypeScript](src/group-by.ts)                          | [TypeScript](tests/group-by.test.ts)                          |
 | 2618 | [Check if Object Instance of Class](https://leetcode.com/problems/check-if-object-instance-of-class) | 05/31/23 | [TypeScript](src/check-if-object-instance-of-class.ts) | [TypeScript](tests/check-if-object-instance-of-class.test.ts) |
+| 2693 | [Call Function with Custom Context](https://leetcode.com/problems/call-function-with-custom-context) | 05/31/23 | [TypeScript](src/call-function-with-custom-context.ts) | [TypeScript](tests/call-function-with-custom-context.test.ts) |
