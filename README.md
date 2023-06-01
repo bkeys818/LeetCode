@@ -16,3 +16,4 @@
 | 2618 | [Check if Object Instance of Class](https://leetcode.com/problems/check-if-object-instance-of-class) | 05/31/23 | [TypeScript](src/check-if-object-instance-of-class.ts) | [TypeScript](tests/check-if-object-instance-of-class.test.ts) |
 | 2693 | [Call Function with Custom Context](https://leetcode.com/problems/call-function-with-custom-context) | 05/31/23 | [TypeScript](src/call-function-with-custom-context.ts) | [TypeScript](tests/call-function-with-custom-context.test.ts) |
 | 1396 | [Design Underground System](https://leetcode.com/problems/design-underground-system)                 | 05/31/23 | [Java](src/DesignUndergroundSystem.java)               | [Java](tests/DesignUndergroundSystemTest.java)                |
+| 1091 | [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix)       | 06/01/23 | [Java](src/ShortestPathInBinaryMatrix.java)            | [Java](tests/ShortestPathInBinaryMatrixTest.java)             |
