@@ -62,3 +62,6 @@
  1318     | [Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-o-r-b-equal-to-c) |
  06/07/23 | [Java](src/MinimumFlipsToMakeAORBEqualToC.java) | |
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position) | 06/07/23 | [Java](src/SearchInsertPosition.java) | [Java](tests/SearchInsertPositionTest.java) |
+| 155 | [Min Stack](https://leetcode.com/problems/min-stack) | 06/08/23 | [Java](src/MinStack.java) | [Java](tests/MinStackTest.java) |
+| 55 | [Jump Game](https://leetcode.com/problems/jump-game) | 06/10/23 | [Java](src/JumpGame.java) | [Java](tests/JumpGameTest.java) |
+| 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku) | 06/10/23 | [Java](src/ValidSudoku.java) | [Java](tests/ValidSudokuTest.java) |
