@@ -3,7 +3,7 @@
 > A repository for storing LeetCode problems I've worked on
 
 |  #   | Problem                                                                                                           | Date     | Solution                                               | Tests                                                         |
-| :--: | ----------------------------------------------------------------------------------------------------------------- | -------- |--------------------------------------------------------|---------------------------------------------------------------|
+|:----:|-------------------------------------------------------------------------------------------------------------------|----------|--------------------------------------------------------|---------------------------------------------------------------|
 | 347  | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements)                                  | 05/22/23 | [Java](src/TopKFrequentElements.java)                  | [Java](tests/TopKFrequentElementsTest.java)                   |
 | 934  | [Shortest Bridge](https://leetcode.com/problems/shortest-bridge)                                                  | 05/22/23 | [Java](src/ShortestBridge.java)                        | [Java](tests/ShortestBridgeTest.java)                         |
 | 703  | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)                 | 05/23/23 | [Java](src/KthLargest.java)                            |                                                               |
@@ -38,3 +38,4 @@
 | 189  | [Rotate Array](https://leetcode.com/problems/rotate-array)                                                        | 06/14/23 | [Java](src/RotateArray.java)                           | [Java](tests/RotateArrayTest.java)                            |
 |  11  | [Container With Most Water](https://leetcode.com/problems/container-with-most-water)                              | 06/18/23 | [Java](src/ContainerWithMostWater.java)                | [Java](tests/ContainerWithMostWaterTest.java)                 |
 |  15  | [3Sum](https://leetcode.com/problems/3-sum)                                                                       | 06/19/23 | [Java](src/ThreeSum.java)                              | [Java](tests/ThreeSumTest.java)                               |
+| 2462 | [Total Cost to Hire K Workers](https://leetcode.com/problems/total-cost-to-hire-k-workers)                        | 06/26/23 | [Java](src/TotalCostToHireKWorkers.java)               | [Java](tests/TotalCostToHireKWorkersTest.java)                |
