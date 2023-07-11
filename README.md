@@ -3,7 +3,7 @@
 > A repository for storing LeetCode problems I've worked on
 
 |  #   | Problem                                                                                                           | Date     | Solution                                               | Tests                                                         |
-|:----:|-------------------------------------------------------------------------------------------------------------------|----------|--------------------------------------------------------|---------------------------------------------------------------|
+| :--: | ----------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------ | ------------------------------------------------------------- |
 | 347  | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements)                                  | 05/22/23 | [Java](src/TopKFrequentElements.java)                  | [Java](tests/TopKFrequentElementsTest.java)                   |
 | 934  | [Shortest Bridge](https://leetcode.com/problems/shortest-bridge)                                                  | 05/22/23 | [Java](src/ShortestBridge.java)                        | [Java](tests/ShortestBridgeTest.java)                         |
 | 703  | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)                 | 05/23/23 | [Java](src/KthLargest.java)                            |                                                               |
@@ -42,3 +42,5 @@
 | 373  | [Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums)                  | 06/27/23 | [Java](src/FindKPairsWithSmallestSums.java)            | [Java](tests/FindKPairsWithSmallestSumsTest.java)             |
 | 1514 | [Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability)                      | 06/28/23 | [Java](src/PathWithMaximumProbability.java)            | [Java](tests/PathWithMaximumProbabilityTest.java)             |
 | 864  | [Shortest Path to Get All Keys](https://leetcode.com/problems/shortest-path-to-get-all-keys)                      | 06/29/23 | [Java](src/ShortestPathToGetAllKeys.java)              | [Java](tests/ShortestPathToGetAllKeysTest.java)               |
+|  56  | [Merge Intervals](https://leetcode.com/problems/merge-intervals)                                                  | 07/02/23 | [Java](src/MergeIntervals.java)                        | [Java](tests/MergeIntervalsTest.java)                         |
+| 863  | [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree)          | 07/11/23 | [Java](src/AllNodesDistanceKInBinaryTree.java)         | [Java](tests/AllNodesDistanceKInBinaryTreeTest.java)          |
