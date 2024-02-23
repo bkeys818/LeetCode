@@ -3,7 +3,8 @@
     "compilerOptions": {
         "types": ["@types/node"],
         "moduleResolution": "node",
-        "module": "commonjs"
+        "module": "commonjs",
+        "esModuleInterop": true
     },
     "exclude": ["../src", "../tests"]
 }
